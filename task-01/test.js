@@ -78,7 +78,6 @@ const users = [{
  * tesztelni a munkádat.
  */
 console.log(get(users, 3));
-/*
 
 console.log(create(users, {
     "firstName": "Ramóna",
@@ -94,4 +93,5 @@ console.log(update(users, {
 }));
 
 console.log(remove(users, 3));
-*/
+/*
+ */
