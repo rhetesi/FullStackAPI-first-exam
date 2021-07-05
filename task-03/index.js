@@ -2,6 +2,9 @@
  * 1. Töltsd be a json állományok kezelését végző modult az azonos mappából és 
  * emeld ki egy változóba az update metódusát.
  */
+const {
+    update
+} = require('./jsonHandler');
 
 /**
  * 2. Ebben a névtelen aszinkron függvényben futtatsd az update metódust. 
@@ -9,12 +12,20 @@
  * kódot a komment jelek eltávolításával.
  */
 /*
-( async () => {
-    console.log( await update({
+ */
+(async () => {
+    console.log(await update({
         "id": 7,
         "name": "Wine - Badacsony - Hungarian",
         "price": 99,
         "bestBefore": "2021-05-30"
     }));
 })();
-*/
+
+/**{
+        "id": 7,
+        "name": "Wine - Russoe Le Mare",
+        "price": 22,
+        "bestBefore": "2021-05-12"
+    },
+ */
